@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+body {
+  font-size: 0.875rem;
+}
+
+video {
+  height: 240px;
+}
+
+@media screen and (min-width: 640px) {
+  video {
+    height: 360px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  video {
+    height: 430px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  video {
+    height: 590px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  video {
+    height: 700px;
+  }
+}
