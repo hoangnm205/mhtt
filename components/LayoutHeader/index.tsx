@@ -45,7 +45,7 @@ const LayoutHeader = () => {
           <div className="max-w-[1200px] mx-auto flex items-center py-3">
             <Image src={Images.ic_phone} alt="ic-phone" />
             <span className="text-white ml-2 font-semibold">
-              Hotline: 0999-999-999
+              Hotline: 098 421 1060
             </span>
           </div>
         </div>
@@ -66,7 +66,9 @@ const LayoutHeader = () => {
                   />
                 </Link>
               </div>
-              <div className="uppercase ml-5 text-3xl font-bold">Devops</div>
+              <div className="uppercase ml-5 text-3xl font-bold text-center flex-1 text-[#e40717]">
+                Màn hình tương tác thông minh ESING unso
+              </div>
             </div>
             <div></div>
             {/* <div className="flex items-center">
@@ -108,13 +110,15 @@ const LayoutHeader = () => {
       <div className="block xl:hidden">
         <div className="bg-black px-2 py-3 flex items-center">
           <span className="text-white ml-2 font-semibold text-xs">
-            Hotline: 0999-999-999
+            Hotline: 098 421 1060
           </span>
         </div>
         <div className="py-6 px-2">
           <div className="flex items-center">
             <Image src={Images.img_brand_logo} alt="" className="w-1/6" />
-            <div className="font-bold ml-4 text-xl">DEVOPS</div>
+            <div className="font-bold ml-4 text-xl">
+              Màn hình tương tác thông minh ESING unso
+            </div>
           </div>
           {/* <div className="grid grid-cols-4 gap-4 mt-6 border-x-0 border-t border-b-0 border-gray-100 pt-6">
             <div

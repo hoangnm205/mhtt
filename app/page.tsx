@@ -52,122 +52,221 @@ const carouselContent = [
 const productContent = [
   {
     id: "product-1",
-    title: "Interactive Flat Panel",
-    image: Images.img_home_product_ir,
-    content: "Professional IFPD for Education/Collaboration",
+    title: "Màn hình tương tác thông minh Esing Unso - Dòng Z",
+    image: Images.img_product_1,
+    // content: "Dòng sản phẩm dành cho giáo dục mầm non và giáo dục phổ thông",
   },
   {
     id: "product-2",
-    title: "Commercial Display for E-Sports",
-    image: Images.img_home_product_commercial,
-    content:
-      "Professional high fresh UHD display improve better gaming experiences.",
+    title: "Màn hình tương tác thông minh Esing Unso - Dòng Q",
+    image: Images.img_product_2,
+    // content:
+    //   "4K HD/ Bảng trắng thông minh/ Phản chiếu màn hình không dây/ Hệ thống kép/ Chế độ xem chính xác",
   },
   {
     id: "product-3",
-    title: "LG PCAP IN-CELL Smart Blackboard",
-    image: Images.img_home_product_board,
-    content:
-      "Combine tradional and interactive teaching perfectly to improve education environment.",
+    title: "Màn hình tương tác thông minh Esing Unso - Dòng T",
+    image: Images.img_product_3,
+    // content:
+    //   "Combine tradional and interactive teaching perfectly to improve education environment.",
   },
   {
     id: "product-4",
-    title: "Accessories",
-    image: Images.img_home_product_accessories,
-    content: "Make more possibilities to your interactive display.",
+    title: "Màn hình tương tác thông minh Esing Unso - Dòng ST",
+    image: Images.img_product_4,
+    // content: "Make more possibilities to your interactive display.",
+  },
+  {
+    id: "product-5",
+    title: "Màn hình tương tác thông minh Esing Unso - Dòng Y/SY",
+    image: Images.img_product_5,
+    // content: "Make more possibilities to your interactive display.",
+  },
+  {
+    id: "product-6",
+    title: "Màn hình tương tác thông minh Esing Unso - Dòng D",
+    image: Images.img_product_6,
+    // content: "Make more possibilities to your interactive display.",
+  },
+  {
+    id: "product-7",
+    title:
+      "Màn hình tương tác thông minh Esing Unso - Dòng màn hình phẳng tương tác điện dung",
+    image: Images.img_product_7,
+    // content: "Make more possibilities to your interactive display.",
   },
 ];
 
-const statisticContent = [
-  {
-    id: "statistic-1",
-    number: 50000,
-    description:
-      "50000㎡ production area to promise fast delivery and high quality",
-  },
-  {
-    id: "statistic-2",
-    number: 15,
-    description: "15 years in LED panel fields optimize supply chain",
-  },
-  {
-    id: "statistic-3",
-    number: 200,
-    description: "200 team members provide professional support",
-  },
-  {
-    id: "statistic-4",
-    number: 1500,
-    description: "1500+ finished projects, experienced in display field",
-  },
+const statisticContent: any[] = [
+  // {
+  //   id: "statistic-1",
+  //   number: 50000,
+  //   description:
+  //     "50000㎡ production area to promise fast delivery and high quality",
+  // },
+  // {
+  //   id: "statistic-2",
+  //   number: 15,
+  //   description: "15 years in LED panel fields optimize supply chain",
+  // },
+  // {
+  //   id: "statistic-3",
+  //   number: 200,
+  //   description: "200 team members provide professional support",
+  // },
+  // {
+  //   id: "statistic-4",
+  //   number: 1500,
+  //   description: "1500+ finished projects, experienced in display field",
+  // },
 ];
 
 const characteristicContent = [
   {
     id: "charac-1",
     type: "left",
-    subTitle: "0 Bonded IR Interactive Flat Panel",
-    title: "THE INTERACTIVE DISPLAY",
+    subTitle: "Màn hình tương tác thông minh Esing Unso",
+    title: "DÒNG Z",
     details: [
-      "0 bonded design, display vivid",
-      "High efficient Android 11.0",
-      "Better connectivity with Wi-Fi 6",
+      "Dành cho giáo dục mầm non và giáo dục phổ thông",
+      "Quản lý giảng dạy thú vị, hiệu quả và chất lượng",
+      "Màn hình 4K, bảng trắng thông minh với nhiều chức năng phong phú",
+      "Size 55' - 65' - 75' - 86' - 98'",
+      "Giá thành: vui lòng liên hệ CSKH",
     ],
-    image: Images.img_home_charac_1,
+    image: Images.img_product_1,
   },
   {
     id: "charac-2",
     type: "right",
-    subTitle: "Education Interactive Panel",
-    title: "HIGH EFFICIENT COLLABORATION SOLUTION",
+    subTitle: "Màn hình tương tác thông minh Esing Unso",
+    title: "Dòng Q",
     details: [
-      "Eye protection 4K LED panel",
-      "3mm/8mm fine writing",
-      "Abundant education whiteboard app.",
-      "Share to cloud, easy to save",
-      "Wireless connection, or 3 in 1 USB-C",
+      "4K HD",
+      "Bảng trắng thông minh",
+      "Phản chiếu màn hình không dây",
+      "Hệ thống kép",
+      "Chế độ xem chính xác",
+      "Chia sẻ mã QR Hội nghị từ xa",
+      "Size 55' - 65' - 75' - 86' - 98'",
+      "Giá thành: vui lòng liên hệ CSKH",
     ],
-    image: Images.img_home_charac_2,
+    image: Images.img_product_2,
   },
   {
     id: "charac-3",
     type: "left",
-    subTitle: "LG PCAP IN-CELL Smart Blackboard",
+    subTitle: "Màn hình tương tác thông minh Esing Unso",
+    title: "Dòng T",
     details: [
-      "LG IN-CELL PCAP touch panel",
-      "No air-gap vivid display and smooth writing",
-      "Chalk or finger writing",
-      "NFC control",
+      "4K HD",
+      "Bảng trắng thông minh",
+      "Phản chiếu màn hình không dây",
+      "Hệ thống kép",
+      "Cảm ứng chính xác",
+      "Hội nghị từ xa",
+      "Chia sẻ mã QR",
+      "Size 55' - 65' - 75' - 86' - 98'",
+      "Giá thành: vui lòng liên hệ CSKH",
     ],
-    image: Images.img_home_charac_3,
+    image: Images.img_product_3,
+  },
+  {
+    id: "charac-4",
+    type: "right",
+    subTitle: "Màn hình tương tác thông minh Esing Unso",
+    title: "Dòng ST",
+    details: [
+      "Tích hợp camera 4K 1200W",
+      "Phản chiếu màn hình không dây",
+      "Hệ thống kép",
+      "Hội nghị từ xa",
+      "Chia sẻ mã QR",
+      "Size 55' - 65' - 75' - 86' - 98'",
+      "Giá thành: vui lòng liên hệ CSKH",
+    ],
+    image: Images.img_product_4,
+  },
+  {
+    id: "charac-5",
+    type: "left",
+    subTitle: "Màn hình tương tác thông minh Esing Unso",
+    title: "Dòng Y/SY",
+    details: [
+      "Tích hợp camera 4K 1200W",
+      "Bảng trắng thông minh",
+      "Phản chiếu màn hình không dây",
+      "Hệ thống kép",
+      "Cảm ứng chính xác",
+      "Hội nghị từ xa",
+      "Chia sẻ mã QR",
+      "Size 55' - 65' - 75' - 86' - 98'",
+      "Giá thành: vui lòng liên hệ CSKH",
+    ],
+    image: Images.img_product_5,
+  },
+  {
+    id: "charac-6",
+    type: "right",
+    subTitle: "Màn hình tương tác thông minh Esing Unso",
+    title: "Dòng D",
+    details: [
+      "4K HD",
+      "Bảng trắng thông minh",
+      "Phản chiếu màn hình không dây",
+      "Hệ thống kép",
+      "Cảm ứng chính xác",
+      "Hội nghị từ xa",
+      "Chia sẻ mã QR",
+      "Size 55' - 65' - 75' - 86' - 98'",
+      "Giá thành: vui lòng liên hệ CSKH",
+    ],
+    image: Images.img_product_6,
+  },
+  {
+    id: "charac-7",
+    type: "left",
+    subTitle: "Màn hình tương tác thông minh Esing Unso",
+    title:
+      "Dòng màn hình phẳng tương tác điện dung - màn hình phẳng tương tác IN-CELL",
+    details: [
+      "Tương tác thông minh, viết mượt mà trong IN-CELL",
+      "Bút, 3 cổng USB 3.0 mặt trước, Type-C đầy đủ tính năng",
+      "(Mẫu T982 có cảm biến ánh sáng thông minh, khôi phục lỗ kim) ",
+      "Đặt thẻ quẹt NFC làm khởi động mặc định",
+      ". Phía trước 8 nhóm nút: Bật/tắt 3 trong 1, Menu, Khóa trẻ em, Bảo vệ mắt, Ghi màn hình, Âm thanh +/-, Ảnh chụp màn hình.",
+      "Size 55' - 65' - 75' - 86' - 98'",
+      "Giá thành: vui lòng liên hệ CSKH",
+    ],
+    image: Images.img_product_7,
   },
 ];
 
-const partnerContent = [
-  {
-    id: "partner-1",
-    image: Images.img_partner_1,
-  },
-  {
-    id: "partner-2",
-    image: Images.img_partner_2,
-  },
-  {
-    id: "partner-3",
-    image: Images.img_partner_3,
-  },
-  {
-    id: "partner-4",
-    image: Images.img_partner_4,
-  },
-  {
-    id: "partner-5",
-    image: Images.img_partner_5,
-  },
-  {
-    id: "partner-6",
-    image: Images.img_partner_6,
-  },
+const partnerContent: any[] = [
+  // {
+  //   id: "partner-1",
+  //   image: Images.img_partner_1,
+  // },
+  // {
+  //   id: "partner-2",
+  //   image: Images.img_partner_2,
+  // },
+  // {
+  //   id: "partner-3",
+  //   image: Images.img_partner_3,
+  // },
+  // {
+  //   id: "partner-4",
+  //   image: Images.img_partner_4,
+  // },
+  // {
+  //   id: "partner-5",
+  //   image: Images.img_partner_5,
+  // },
+  // {
+  //   id: "partner-6",
+  //   image: Images.img_partner_6,
+  // },
 ];
 
 export default function Home() {
@@ -252,14 +351,14 @@ export default function Home() {
             />
           </div>
           <div className="mb-16 py-8">
-            <div className="text-4xl font-bold text-center">Partners</div>
+            {/* <div className="text-4xl font-bold text-center">Partners</div>
             <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-8 mt-6">
               {partnerContent.map((item) => (
                 <div key={item.id}>
                   <PartnerItem image={item.image} />
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
         </LayoutContainer>
       </div>

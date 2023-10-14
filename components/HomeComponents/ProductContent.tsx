@@ -5,7 +5,7 @@ interface Props {
   contentData: {
     id: string;
     title: string;
-    content: string;
+    content?: string;
     image: any;
   };
 }
@@ -21,9 +21,11 @@ const ProductContent = ({ contentData }: Props) => {
           <div className="font-bold text-center text-lg">
             {contentData.title}
           </div>
-          <div className="text-center text-grayText text-xs mt-4">
-            {contentData.content}
-          </div>
+          {contentData.content && (
+            <div className="text-center text-grayText text-xs mt-4">
+              {contentData.content}
+            </div>
+          )}
         </div>
       </div>
     </div>

@@ -66,15 +66,13 @@ const LayoutFooter = () => {
         </div> */}
         {/* <hr /> */}
         <div className="footer2 py-4 text-grayText text-xs">
-          <div>Shenzhen Devops Technology Co., LTD</div>
+          <div>Công ty Cổ phần Edusing Việt Nam</div>
           <div className="mt-1">
-            www.devops-display.com Copyright ©2010-2022 Shenzhen Devops
-            Technology Co., LTD All Rights Reserved.　 ICP：粤ICP备20068471号
+            Địa chỉ: L2A, 02, Toà R6, KĐT Vinhomes Royal City, Số 72 Nguyễn
+            Trãi, P. Thượng Đình, Q. Thanh Xuân, TP. Hà Nội, Việt Nam
           </div>
-          <div className="mt-1">
-            Address：No. 48, Fortress Road, No.1 Industrial Zone, Lisonglang
-            Community, Gongming Street, Guangming New District, Shenzhen
-          </div>
+          <div className="mt-1">Mã số thuế: 0109336382</div>
+          <div className="mt-1">SĐT: 098 421 1060</div>
         </div>
       </div>
       <div className="block xl:hidden px-2 py-3">
@@ -85,23 +83,21 @@ const LayoutFooter = () => {
         />
         <div className="flex items-center justify-center mt-6">
           <Image src={Images.ic_phone} alt="ic-phone" />
-          <span className="text-grayText ml-4">400-8910-950</span>
+          <span className="text-grayText ml-4">098 421 1060</span>
         </div>
-        <div className="flex items-center justify-center mt-2 mb-4">
+        {/* <div className="flex items-center justify-center mt-2 mb-4">
           <Image src={Images.ic_fax} alt="ic-phone" />
           <span className="text-grayText ml-4">0755-33182699</span>
-        </div>
+        </div> */}
         <hr />
         <div className="footer2 py-4 text-grayText text-xs">
-          <div className="text-center">Shenzhen Devops Technology Co., LTD</div>
+          <div className="text-center">Công ty Cổ phần Edusing Việt Nam</div>
           <div className="mt-1 text-center">
-            www.devops-display.com Copyright ©2010-2022 Shenzhen Devops
-            Technology Co., LTD All Rights Reserved.　 ICP：粤ICP备20068471号
+            Địa chỉ: L2A, 02, Toà R6, KĐT Vinhomes Royal City, Số 72 Nguyễn
+            Trãi, P. Thượng Đình, Q. Thanh Xuân, TP. Hà Nội, Việt Nam
           </div>
-          <div className="mt-1 text-center">
-            Address：No. 48, Fortress Road, No.1 Industrial Zone, Lisonglang
-            Community, Gongming Street, Guangming New District, Shenzhen
-          </div>
+          <div className="mt-1 text-center">Mã số thuế: 0109336382</div>
+          <div className="mt-1 text-center">SĐT: 098 421 1060</div>
         </div>
       </div>
     </div>

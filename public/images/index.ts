@@ -37,4 +37,11 @@ export default {
   img_education_5: require("./education_5.png"),
   img_education_6: require("./education_6.png"),
   img_education_7: require("./education_7.png"),
+  img_product_1: require("./product_1.png"),
+  img_product_2: require("./product_2.png"),
+  img_product_3: require("./product_3.png"),
+  img_product_4: require("./product_4.png"),
+  img_product_5: require("./product_5.png"),
+  img_product_6: require("./product_6.png"),
+  img_product_7: require("./product_7.png"),
 };
