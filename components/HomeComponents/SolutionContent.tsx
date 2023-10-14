@@ -16,7 +16,7 @@ const SolutionContent = (props: Props) => {
   return (
     <div className={`${bgColor} px-2.5 py-4 xl:py-10`}>
       <div className="w-full h-full relative">
-        <div className="absolute left-0 top-0 font-bold text-lg">{title}</div>
+        <div className="absolute left-0 top-0 font-bold text-lg text-[#8D3032]">{title}</div>
         <div className="absolute inset-0 flex items-center font-bold text-white text-xl xl:text-2xl">
           {content}
         </div>

@@ -21,9 +21,9 @@ const HomeCharacteristic = (props: Props) => {
         )}
       </div>
       <div className="mt-6 md:mt-0">
-        <div className="text-[#3d3938] text-2xl font-bold">{subTitle}</div>
+        <div className="text-[#8D3032] text-2xl font-bold">{subTitle}</div>
         {title && (
-          <div className="text-[#3d3938] text-2xl font-bold uppercase mt-3">
+          <div className="text-[#8D3032] text-2xl font-bold uppercase mt-3">
             {title}
           </div>
         )}

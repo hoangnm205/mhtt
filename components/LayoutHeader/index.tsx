@@ -66,11 +66,11 @@ const LayoutHeader = () => {
                   />
                 </Link>
               </div>
-              <div className="uppercase ml-5 text-3xl font-bold text-center flex-1 text-[#e40717]">
+              <div className="uppercase ml-5 text-3xl font-bold text-center flex-1 text-[#8D3032]">
                 Màn hình tương tác thông minh ESING unso
               </div>
             </div>
-            <div></div>
+
             {/* <div className="flex items-center">
               <div
                 className="uppercase font-bold cursor-pointer"
@@ -104,6 +104,7 @@ const LayoutHeader = () => {
               </div>
             </div> */}
           </div>
+          
           <FlyoutMenus config={configSubMenu} />
         </div>
       </div>

@@ -273,6 +273,14 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
       <LayoutHeader />
+      <div
+        className="flex-1 flex items-center bg-gray-100"
+      >
+        <div className="uppercase ml-10 p-5 text-xl font-bold text-center flex-1 text-[#8D3032]">
+          SẢN PHẨM ĐƯỢC HỢP TÁC NGHIÊN CỨU – PHÁT TRIỂN BỞI <br /> EDUSING VIỆT
+          NAM VÀ HỌC VIỆN KHKTQS BỘ QUỐC PHÒNG VIỆT NAM
+        </div>
+      </div>
       <div className="flex-1">
         <Carousel autoplay>
           {carouselContent.map((item) => item.content)}
