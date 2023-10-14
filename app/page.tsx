@@ -273,12 +273,14 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
       <LayoutHeader />
-      <div
-        className="flex-1 flex items-center bg-gray-100"
-      >
-        <div className="uppercase ml-10 p-5 text-xl font-bold text-center flex-1 text-[#ce4040]">
+      <div className="flex-1 flex items-center bg-gray-100">
+        <div className="hidden xl:inline-block uppercase py-5 px-2 xl:text-xl font-bold text-center flex-1 text-[#ce4040]">
           SẢN PHẨM ĐƯỢC HỢP TÁC NGHIÊN CỨU – PHÁT TRIỂN BỞI <br /> EDUSING VIỆT
           NAM VÀ HỌC VIỆN KHKTQS BỘ QUỐC PHÒNG VIỆT NAM
+        </div>
+        <div className="block xl:hidden uppercase py-4 px-2 font-bold text-center flex-1 text-[#ce4040]">
+          SẢN PHẨM ĐƯỢC HỢP TÁC NGHIÊN CỨU – PHÁT TRIỂN BỞI EDUSING VIỆT NAM VÀ
+          HỌC VIỆN KHKTQS BỘ QUỐC PHÒNG VIỆT NAM
         </div>
       </div>
       <div className="flex-1">
@@ -319,7 +321,7 @@ export default function Home() {
             </div>
           </div>
         </LayoutContainer>
-        <div className="bg-gray-100 py-24 px-10 md:grid md:grid-cols-2 xl:grid-cols-4 gap-12">
+        <div className="bg-gray-100 py-10 xl:py-24 px-10 md:grid md:grid-cols-2 xl:grid-cols-4 gap-12">
           {productContent.map((item, index) => (
             <div className={index > 0 ? "mt-8 md:mt-0" : ""} key={item.id}>
               <ProductContent contentData={item} />
@@ -358,16 +360,23 @@ export default function Home() {
               controls
             />
           </div>
-          <div className="mb-16 py-8">
-            {/* <div className="text-4xl font-bold text-center">Partners</div>
+          <div className="my-8 xl:my-16">
+            <video
+              style={{ width: "100%" }}
+              src="/videos/sample2.mp4"
+              controls
+            />
+          </div>
+          {/* <div className="mb-16 py-8">
+            <div className="text-4xl font-bold text-center">Partners</div>
             <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-8 mt-6">
               {partnerContent.map((item) => (
                 <div key={item.id}>
                   <PartnerItem image={item.image} />
                 </div>
               ))}
-            </div> */}
-          </div>
+            </div>
+          </div> */}
         </LayoutContainer>
       </div>
       <LayoutFooter />

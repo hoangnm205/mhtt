@@ -76,14 +76,17 @@ const LayoutFooter = () => {
         </div>
       </div>
       <div className="block xl:hidden px-2 py-3">
-        <Image
-          src={Images.img_brand_logo}
-          alt="brand-logo"
-          className="mx-auto"
-        />
-        <div className="flex items-center justify-center mt-6">
+        <div className="w-20 mx-auto">
+          <Image
+            src={Images.img_brand_logo}
+            alt="brand-logo"
+            className="mx-auto"
+          />
+        </div>
+
+        <div className="flex items-center justify-center mt-6 mb-4">
           <Image src={Images.ic_phone} alt="ic-phone" />
-          <span className="text-grayText ml-4">098 421 1060</span>
+          <span className="text-grayText ml-4">0986 - 453 - 145</span>
         </div>
         {/* <div className="flex items-center justify-center mt-2 mb-4">
           <Image src={Images.ic_fax} alt="ic-phone" />

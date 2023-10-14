@@ -18,7 +18,7 @@ const ProductContent = ({ contentData }: Props) => {
           <Image src={contentData.image} alt="" className="w-full" />
         </div>
         <div className="mt-8">
-          <div className="font-bold text-center text-lg">
+          <div className="font-bold text-center xl:text-lg">
             {contentData.title}
           </div>
           {contentData.content && (
