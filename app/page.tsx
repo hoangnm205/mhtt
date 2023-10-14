@@ -276,7 +276,7 @@ export default function Home() {
       <div
         className="flex-1 flex items-center bg-gray-100"
       >
-        <div className="uppercase ml-10 p-5 text-xl font-bold text-center flex-1 text-[#8D3032]">
+        <div className="uppercase ml-10 p-5 text-xl font-bold text-center flex-1 text-[#ce4040]">
           SẢN PHẨM ĐƯỢC HỢP TÁC NGHIÊN CỨU – PHÁT TRIỂN BỞI <br /> EDUSING VIỆT
           NAM VÀ HỌC VIỆN KHKTQS BỘ QUỐC PHÒNG VIỆT NAM
         </div>
