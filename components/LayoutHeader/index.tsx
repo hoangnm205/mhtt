@@ -104,7 +104,7 @@ const LayoutHeader = () => {
               </div>
             </div> */}
           </div>
-          
+
           <FlyoutMenus config={configSubMenu} />
         </div>
       </div>
@@ -117,8 +117,8 @@ const LayoutHeader = () => {
         <div className="py-6 px-2">
           <div className="flex items-center">
             <Image src={Images.img_brand_logo} alt="" className="w-1/6" />
-            <div className="font-bold ml-4 text-xl">
-              Màn hình tương tác thông minh ESING unso
+            <div className="font-bold ml-4 text-xl text-[#8D3032]">
+              Màn hình tương tác <br /> thông minh ESING unso
             </div>
           </div>
           {/* <div className="grid grid-cols-4 gap-4 mt-6 border-x-0 border-t border-b-0 border-gray-100 pt-6">
