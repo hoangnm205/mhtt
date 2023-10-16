@@ -49,6 +49,45 @@ const carouselContent = [
   },
 ];
 
+const carouselContentMobile = [
+  {
+    id: "carousel-1",
+    content: (
+      <div key="carousel-1" className="xl:h-[610px] 2xl:h-[700px] w-full">
+        <Image
+          src={Images.img_carousel_mobile_1}
+          alt="img-1"
+          className="w-full h-full"
+        />
+      </div>
+    ),
+  },
+  {
+    id: "carousel-2",
+    content: (
+      <div key="carousel-2" className="xl:h-[610px] 2xl:h-[700px] w-full">
+        <Image
+          src={Images.img_carousel_mobile_2}
+          alt="img-2"
+          className="w-full h-full"
+        />
+      </div>
+    ),
+  },
+  {
+    id: "carousel-3",
+    content: (
+      <div key="carousel-3" className="xl:h-[610px] 2xl:h-[700px] w-full">
+        <Image
+          src={Images.img_carousel_mobile_3}
+          alt="img-3"
+          className="w-full h-full"
+        />
+      </div>
+    ),
+  },
+];
+
 const productContent = [
   {
     id: "product-1",
@@ -276,17 +315,26 @@ export default function Home() {
       <div className="flex-1 flex items-center bg-gray-100">
         <div className="hidden xl:inline-block uppercase py-5 px-2 xl:text-xl font-bold text-center flex-1 text-[#ce4040]">
           SẢN PHẨM ĐƯỢC HỢP TÁC NGHIÊN CỨU – PHÁT TRIỂN BỞI <br /> EDUSING VIỆT
-          NAM VÀ HỌC VIỆN KHKTQS BỘ QUỐC PHÒNG VIỆT NAM
+          NAM VÀ HỌC VIỆN KHKTQS <br />
+          BỘ QUỐC PHÒNG VIỆT NAM
         </div>
         <div className="block xl:hidden uppercase py-4 px-2 font-bold text-center flex-1 text-[#ce4040]">
           SẢN PHẨM ĐƯỢC HỢP TÁC NGHIÊN CỨU – PHÁT TRIỂN BỞI EDUSING VIỆT NAM VÀ
-          HỌC VIỆN KHKTQS BỘ QUỐC PHÒNG VIỆT NAM
+          HỌC VIỆN KHKTQS <br />
+          BỘ QUỐC PHÒNG VIỆT NAM
         </div>
       </div>
       <div className="flex-1">
-        <Carousel autoplay>
-          {carouselContent.map((item) => item.content)}
-        </Carousel>
+        <div className="xl:hidden">
+          <Carousel autoplay className="xl:hidden">
+            {carouselContentMobile.map((item) => item.content)}
+          </Carousel>
+        </div>
+        <div className="hidden xl:block">
+          <Carousel autoplay className="hidden xl:block">
+            {carouselContent.map((item) => item.content)}
+          </Carousel>
+        </div>
         <LayoutContainer>
           <div className="py-8 xl:py-16 lg:grid grid-cols-2">
             <div className="grid grid-cols-2">
@@ -321,13 +369,35 @@ export default function Home() {
             </div>
           </div>
         </LayoutContainer>
-        <div className="bg-gray-100 py-10 xl:py-24 px-10 md:grid md:grid-cols-2 xl:grid-cols-4 gap-12">
+        <div className="bg-gray-100 py-10 xl:py-24 xl:px-10 gap-12 xl:hidden">
+          <LayoutContainer>
+            <div>
+              <Carousel autoplay>
+                {productContent.map((item) => (
+                  <div key={item.id} className="bg-white">
+                    <div className="h-[300px] flex items-center justify-center">
+                      <Image
+                        src={item.image}
+                        alt="image"
+                        className="object-contain w-full h-full"
+                      />
+                    </div>
+                    <div className="bg-gray-100 bg-opacity-40 py-3 text-center text-[#8D3032] px-4 font-bold text-base">
+                      {item.title}
+                    </div>
+                  </div>
+                ))}
+              </Carousel>
+            </div>
+          </LayoutContainer>
+        </div>
+        {/* <div className="bg-gray-100 py-10 xl:py-24 px-10 md:grid md:grid-cols-2 xl:grid-cols-4 gap-12">
           {productContent.map((item, index) => (
             <div className={index > 0 ? "mt-8 md:mt-0" : ""} key={item.id}>
               <ProductContent contentData={item} />
             </div>
           ))}
-        </div>
+        </div> */}
         <Image src={Images.img_brand_factory} alt="" className="w-full" />
         <LayoutContainer>
           <div className="py-8 md:grid md:grid-cols-2 xl:grid-cols-4 gap-16">
@@ -355,28 +425,18 @@ export default function Home() {
           </div>
           <div className="my-8 xl:my-16">
             <video
-              style={{ width: "100%" }}
+              style={{ width: "100%", backgroundColor: "#000" }}
               src="/videos/sample.mp4"
               controls
             />
           </div>
           <div className="my-8 xl:my-16">
             <video
-              style={{ width: "100%" }}
+              style={{ width: "100%", backgroundColor: "#000" }}
               src="/videos/sample2.mp4"
               controls
             />
           </div>
-          {/* <div className="mb-16 py-8">
-            <div className="text-4xl font-bold text-center">Partners</div>
-            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-8 mt-6">
-              {partnerContent.map((item) => (
-                <div key={item.id}>
-                  <PartnerItem image={item.image} />
-                </div>
-              ))}
-            </div>
-          </div> */}
         </LayoutContainer>
       </div>
       <LayoutFooter />

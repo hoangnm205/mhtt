@@ -44,4 +44,7 @@ export default {
   img_product_5: require("./product_5.png"),
   img_product_6: require("./product_6.png"),
   img_product_7: require("./product_7.png"),
+  img_carousel_mobile_1: require("./img-carousel-mobile-1.png"),
+  img_carousel_mobile_2: require("./img-carousel-mobile-2.png"),
+  img_carousel_mobile_3: require("./img-carousel-mobile-3.png"),
 };
