@@ -45,7 +45,7 @@ const LayoutHeader = () => {
           <div className="max-w-[1200px] mx-auto flex items-center py-3">
             <Image src={Images.ic_phone} alt="ic-phone" />
             <span className="text-white ml-2 font-semibold">
-              Hotline: 098 645 3145
+              Hotline: 091 216 5811
             </span>
           </div>
         </div>
@@ -111,7 +111,7 @@ const LayoutHeader = () => {
       <div className="block xl:hidden">
         <div className="bg-black px-2 py-3 flex items-center">
           <span className="text-white ml-2 font-semibold text-xs">
-            Hotline: 098 421 1060
+            Hotline: 091 216 5811
           </span>
         </div>
         <div className="py-6 px-2">

@@ -72,7 +72,7 @@ const LayoutFooter = () => {
             Trãi, P. Thượng Đình, Q. Thanh Xuân, TP. Hà Nội, Việt Nam
           </div>
           <div className="mt-1">Mã số thuế: 0109336382</div>
-          <div className="mt-1">SĐT: 098 421 1060</div>
+          <div className="mt-1">SĐT: 091 216 5811</div>
         </div>
       </div>
       <div className="block xl:hidden px-2 py-3">
@@ -100,7 +100,7 @@ const LayoutFooter = () => {
             Trãi, P. Thượng Đình, Q. Thanh Xuân, TP. Hà Nội, Việt Nam
           </div>
           <div className="mt-1 text-center">Mã số thuế: 0109336382</div>
-          <div className="mt-1 text-center">SĐT: 098 421 1060</div>
+          <div className="mt-1 text-center">SĐT: 091 216 5811</div>
         </div>
       </div>
     </div>
