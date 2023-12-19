@@ -47,4 +47,5 @@ export default {
   img_carousel_mobile_1: require("./img-carousel-mobile-1.png"),
   img_carousel_mobile_2: require("./img-carousel-mobile-2.png"),
   img_carousel_mobile_3: require("./img-carousel-mobile-3.png"),
+  img_bo_cong_thuong: require("./bocongthuong.png"),
 };

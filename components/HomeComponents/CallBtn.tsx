@@ -9,7 +9,7 @@ const CallBtn = () => {
       shape="circle"
       type="primary"
       icon={<PhoneOutlined />}
-      onClick={() => window.open("tel:0986453145", "_self")}
+      onClick={() => window.open("tel:0912165811", "_self")}
     />
   );
 };
